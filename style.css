@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #444;
+}
+
+table {
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a[role="button"] {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a[role="button"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+a[role="button"]:active {
+    background-color: #003f8a;
+    transform: translateY(0);
+}
+
+.button-group {
+    display: inline;
+    padding: 2px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.btn-submit {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    margin-left: 20%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.btn-submit:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+}
+
+.btn-submit:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
